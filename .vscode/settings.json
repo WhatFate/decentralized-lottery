@@ -1,0 +1,28 @@
+{
+  // --- Solidity Compiler Settings ---
+  "solidity.compileUsingRemoteVersion": "v0.8.19+commit.7dd6d404",
+  "solidity.enableLocalNodeCompiler": false,
+  "solidity.packageDefaultDependenciesDirectory": "lib",
+  "solidity.packageDefaultDependenciesContractsDirectory": "contracts",
+
+  // --- Remappings (для импорта типа @chainlink/...) ---
+  "solidity.remappings": [
+    "@chainlink=lib/chainlink-brownie-contracts/contracts/"
+  ],
+
+  // --- Formatter ---
+  "editor.formatOnSave": true,
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true
+  },
+
+  // --- Дополнительно для безопасности и среды разработки ---
+  "files.associations": {
+    "*.sol": "solidity"
+  },
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ]
+}
