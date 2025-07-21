@@ -92,6 +92,6 @@ The contract uses Chainlink Keepers (or manual calls to `performUpkeep`) to trig
 - The contract resets after each round, allowing continuous lottery cycles.
 - The project is designed for easy adaptation to other networks by modifying `HelperConfig`.
 
-## License
+---
 
-MIT
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
